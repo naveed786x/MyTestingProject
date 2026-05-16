@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'
 
-test('Test Case 1 ', async ({ page }) => {
+test('Test Case 123 ', async ({ page }) => {
     //Navigate to URL
-    await page.goto(`${process.env.URL}`);
+    await page.goto(`${process.env.URL}`); 
 
     const txt =await page.locator('[class="entry-title"]').textContent();
     //const finaltext = txt?.trim();
