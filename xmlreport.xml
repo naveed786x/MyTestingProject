@@ -1,0 +1,64 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="40.836241">
+<testsuite name="Chapter04\04_Parrelel_Execution_test.spec.ts" timestamp="2026-05-15T10:25:12.223Z" hostname="chromium" tests="4" failures="1" skipped="0" time="60.942" errors="0">
+<testcase name="Test Case 1 " classname="Chapter04\04_Parrelel_Execution_test.spec.ts" time="14.566">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-1--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 2 " classname="Chapter04\04_Parrelel_Execution_test.spec.ts" time="14.914">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-2--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 3 " classname="Chapter04\04_Parrelel_Execution_test.spec.ts" time="6.685">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-3--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Case 4 " classname="Chapter04\04_Parrelel_Execution_test.spec.ts" time="24.777">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-4--chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-4--chromium\error-context.md]]
+]]>
+</system-out>
+<failure message="expect(page).toHaveURL(expected) failed" type="expect.toHaveURL">
+<![CDATA[  [chromium] › Chapter04\04_Parrelel_Execution_test.spec.ts:72:5 › Test Case 4  ────────────────────
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected: "https://www.youtube.com1/"
+    Received: "https://www.youtube.com/"
+    Timeout:  20000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 20000ms
+        23 × unexpected value "https://www.youtube.com/"
+
+
+      76 |
+      77 |     //Validate for the URL
+    > 78 |     await expect(page).toHaveURL('https://www.youtube.com1/');
+         |                        ^
+      79 |
+      80 |     //click on search box and validate if its visible
+      81 |     await page.getByRole('combobox', { name: 'Search' }).click();
+        at F:\Projects\Playwright\PlaywrightTSProject\tests\Chapter04\04_Parrelel_Execution_test.spec.ts:78:24
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-4--chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter04-04_Parrelel_Execution_test-Test-Case-4--chromium\error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

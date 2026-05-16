@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","37216","Test Case 2","chromium","2026-05-15","passed","2026-05-15","Smoke Test","Chapter04\04_Parrelel_Execution_test.spec.ts","",""
+"","36189","Test Case 3","chromium","2026-05-15","passed","2026-05-15","Regression Test","Chapter04\04_Parrelel_Execution_test.spec.ts","",""
+"","40585","Test Case 4","chromium","2026-05-15","failed","2026-05-15","Regression Test","Chapter04\04_Parrelel_Execution_test.spec.ts","",""
+"","36825","Test Case 1","chromium","2026-05-15","passed","2026-05-15","Smoke Test","Chapter04\04_Parrelel_Execution_test.spec.ts","",""
